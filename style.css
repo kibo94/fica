@@ -73,6 +73,12 @@ a {
   bottom: 50px;
   transition: transform 0.3s ease-in;
 }
+.hero-content img:nth-child(2) {
+  opacity: 0;
+}
+.hero-content img:nth-child(3) {
+  opacity: 0;
+}
 
 .hero-text {
   color: black;
