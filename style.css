@@ -106,26 +106,31 @@ a {
 @media (max-width: 768px) {
   .big-heading {
     font-size: 160px;
+    transform: translateY(40px);
   }
   .hero-text {
-    width: 300px;
-    font-size: 18px;
+    width: 350px;
+    font-size: 17px;
     transform: translateY(0%);
   }
 
   .hero-content {
     width: 300px;
-    height: 290px;
-    transform: translateY(-20%);
+    height: 231px;
   }
 
   .hero-content img {
     width: 300px;
   }
+
+  .hero-content .images {
+    top: 100px;
+  }
   .controls {
     left: 50%;
     right: auto;
     transform: translateX(-50%);
+    bottom: 25px;
   }
 
   .controls svg {
