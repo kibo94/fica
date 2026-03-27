@@ -110,6 +110,7 @@ a {
   .hero-text {
     width: 300px;
     font-size: 18px;
+    transform: translateY(0%);
   }
 
   .hero-content {
